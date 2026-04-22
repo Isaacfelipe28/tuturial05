@@ -9,6 +9,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     String? opcaoPagamento;
     return MaterialApp(
       home: Scaffold(
@@ -44,6 +45,16 @@ class MainApp extends StatelessWidget {
           )
         ),
       ),
+=======
+    return const MaterialApp(
+     home: Column(
+      children: [
+      Text("Oi mundo 1"),
+      Text("Oi mundo 2"),
+      Text("Oi mundo 3"),
+      Text("Oi mundo 4"),
+  ])
+>>>>>>> 895cf752566afeeb120977805734bd59fa5f01d3
     );
   }
 }
